@@ -1,0 +1,10 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.contactLink {
+  color: var(--highlight);
+
+  &:hover {
+    color: var(--dark-highlight);
+  }
+}

@@ -1,0 +1,37 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.sidebar {
+  flex: 0 0 var(--sidebar-width);
+  order: -1;
+  background: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--lg-spacing);
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.activeContainer {
+  height: var(--button-height);
+  background: var(--darker-blue);
+  color: var(--white);
+  text-align: center;
+  padding: var(--xs-spacing);
+}
+
+.linkContainer {
+  height: var(--button-height);
+  color: var(--sidebar-gray);
+  text-align: center;
+  padding: var(--xs-spacing);
+
+  &:hover {
+    background: var(--darker-blue);
+    color: var(--white);
+  }
+}
+
+.linkContent {
+  margin-left: var(--xs-spacing);
+}

@@ -1,0 +1,16 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --light-gray: #efefee;
+  --med-gray: #7b7b7b;
+  --dark-gray: #f7f7f7;
+  --sidebar-gray: #d8d8d8;
+  --light-blue: #c2d6ef;
+  --dark-blue: #656690;
+  --darker-blue: #2d3858;
+  --highlight: #c7081f;
+  --dark-highlight: #9f071a;
+  --error-highlight: #fefaec;
+  --error: #d0b34f;
+  --logocolor: #ef283f;
+}

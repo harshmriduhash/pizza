@@ -1,0 +1,8 @@
+node_modules
+ENV
+compiled
+public
+.DS_Store
+test_johnbot_db
+logs
+npm-debug.log

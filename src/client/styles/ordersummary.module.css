@@ -1,0 +1,34 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.receipt {
+  display: flex;
+}
+
+.receipt-labels {
+  margin-right: 2em;
+}
+
+.summary {
+  border: 1px solid var(--light-gray);
+  background-color: var(--white);
+  padding: var(--spacing);
+  min-height: 250px;
+}
+
+.header {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.subHeader {
+  font-size: 1.25em;
+}
+
+.discount {
+  color: var(--highlight);
+}
+
+.total {
+  font-weight: bold;
+}

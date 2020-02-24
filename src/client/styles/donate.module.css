@@ -1,0 +1,67 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.discountHeader {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+.discountSubheader {
+  font-size: 1.1em;
+  color: var(--med-gray);
+}
+
+.donateButton {
+  -webkit-appearance: none;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+  border-radius: 0;
+  cursor: pointer;
+  height: 8em;
+  width: 48%;
+
+  &:hover {
+    border-color: var(--highlight);
+  }
+
+  &:active {
+    font-weight: bold;
+    color: var(--highlight);
+    border-color: var(--highlight);
+  }
+}
+
+.activeButton {
+  composes: donateButton;
+  font-weight: bold;
+  color: var(--highlight);
+  border-color: var(--highlight);
+}
+
+.largeDonateButton {
+  composes: donateButton;
+  height: 5em;
+  width: 100%;
+  margin-top: var(--sm-spacing);
+
+  &:active {
+    font-weight: bold;
+    color: var(--highlight);
+    border-color: var(--highlight);
+  }
+}
+
+.largeActiveButton {
+  composes: largeDonateButton;
+
+  font-weight: bold;
+  color: var(--highlight);
+  border-color: var(--highlight);
+}
+
+.buttonContainer {
+  margin-top: var(--spacing);
+  display: flex;
+  justify-content: space-between;
+}

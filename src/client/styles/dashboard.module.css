@@ -1,0 +1,26 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.body { /* holy-grail */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.dashboard { /* holy-grail body */
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 1em;
+}
+
+.json {
+  width: 500px;
+  word-break: break-word;
+}

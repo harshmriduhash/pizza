@@ -1,0 +1,22 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.topbar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: var(--white);
+  width: 100%;
+  padding: 0 25px;
+  height: var(--height);
+  line-height: var(--height);
+  text-align: center;
+}
+
+.logo {
+  height: var(--height);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: -var(--content);
+}

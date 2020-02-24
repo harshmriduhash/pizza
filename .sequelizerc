@@ -1,0 +1,5 @@
+module.exports = {
+  config: './src/db/sequelize/sequelizeConfig.js',
+  migrationsPath: './src/db/sequelize/migrations',
+  modelsPath: './src/db/sequelize/models'
+};

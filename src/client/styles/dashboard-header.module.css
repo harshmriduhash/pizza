@@ -1,0 +1,27 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.topbar {
+  background: var(--white);
+  line-height: 6em;
+  height: 6em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  margin-top: 1em;
+  height: 4em;
+  width: var(--sidebar-width);
+  padding: var(--xs-spacing) 0;
+  text-align: center;
+  margin-left: 3em;
+}
+
+.logo {
+  height: 100%;
+}
+
+.user {
+  padding-right: var(--spacing);
+}

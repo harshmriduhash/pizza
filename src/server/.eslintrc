@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-underscore-dangle": 0,
+    "no-extend-native": 0,
+    "no-console": 0,
+    "max-len": [2, 120, 2, {
+      ignoreUrls: true,
+      ignoreComments: false
+    }]
+  },
+  "env": {
+    "node": true
+  }
+}

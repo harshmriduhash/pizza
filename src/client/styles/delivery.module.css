@@ -1,0 +1,28 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.deliveryContent {
+  composes: baseSection from "./order.module.css";
+  padding: var(--spacing) var(--spacing) var(--spacing) var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.formField {
+  composes: baseFormField from "./order.module.css";
+  width: var(--form-width);
+  margin-bottom: var(--sm-spacing);
+}
+
+.lastFormField {
+  composes: formField;
+  margin-bottom: 0;
+}
+
+.textarea-form-field {
+  border: 1px solid var(--light-gray);
+  margin-bottom: var(--sm-spacing);
+  width: var(--form-width);
+  padding: 0.5em;
+  font-size: 14px;
+  resize: none;
+}

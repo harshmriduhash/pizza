@@ -1,0 +1,33 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.formContainer {
+  width: var(--form-width);
+}
+
+.formField {
+  composes: baseFormField from "./order.module.css";
+  width: var(--form-width);
+  margin-bottom: var(--sm-spacing);
+}
+
+.expiration {
+  composes: formField;
+  margin-right: var(--sm-spacing);
+  width: calc(70% - var(--sm-spacing));
+}
+
+.cvc {
+  composes: formField;
+  width: 30%;
+}
+
+.zipCode {
+  composes: formField;
+  margin-bottom: 0;
+}
+
+.stripe {
+  float: right;
+  padding-top: 2px;
+}

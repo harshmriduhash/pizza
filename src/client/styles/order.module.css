@@ -1,0 +1,123 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: var(--height);
+  padding-top: var(--lg-spacing);
+  flex-basis: var(--content);
+}
+
+.summary {
+  composes: content;
+  flex-basis: var(--summary);
+  margin-left: var(--spacing);
+}
+
+/* the following classes are used in sub-modules */
+.baseSection {
+  border: 1px solid var(--light-gray);
+  background-color: var(--white);
+  padding: var(--sm-spacing);
+
+  i {
+    margin-right: var(--xs-spacing);
+    color: var(--highlight);
+    font-size: 1.5em;
+  }
+}
+
+.collapsedSection {
+  composes: baseSection;
+}
+
+.sectionContent {
+  composes: baseSection;
+  padding: var(--spacing) var(--spacing) var(--spacing) var(--spacing);
+  margin-bottom: var(--spacing);
+  margin-top: var(--spacing);
+}
+
+.contentHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: var(--spacing);
+
+  i {
+    margin-right: 5px;
+    color: var(--highlight);
+  }
+}
+
+.moreInfo {
+  font-style: italic;
+  margin-bottom: var(--spacing);
+}
+
+.baseFormField {
+  border: 1px solid var(--light-gray);
+  padding: 0.5em;
+  font-size: 14px;
+  height: 2em;
+}
+
+.break {
+  color: var(--light-gray);
+  background-color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.error {
+  color: var(--error);
+  background-color: var(--error-highlight);
+  width: var(--form-width);
+}
+
+.submitContainer {
+  text-align: right;
+}
+
+.submitButton {
+  -webkit-appearance: none;
+  border-radius: 6px;
+  border: 1px solid var(--highlight);
+  background-color: var(--highlight);
+  color: var(--white);
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--dark-highlight);
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+
+  &:disabled {
+    border-color: var(--light-gray);
+    background-color: var(--dark-gray);
+    color: var(--med-gray);
+  }
+}
+
+.changeLink {
+  padding-top: 4px;
+  float: right;
+  color: var(--highlight);
+  font-weight: bold;
+
+  &:hover {
+    color: var(--dark-highlight);
+  }
+}

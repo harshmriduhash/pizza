@@ -1,0 +1,18 @@
+@import url("./colors.css");
+
+:root {
+  --height: 80px;
+  --content: 420px;
+  --form-width: 300px;
+  --summary: 250px;
+
+  --dashboard-height: 2em;
+  --sidebar-width: 180px;
+  --button-height: 32px;
+  --component-width: 640px;
+
+  --xs-spacing: 7px;
+  --sm-spacing: 12px;
+  --spacing: 25px;
+  --lg-spacing: 40px;
+}

@@ -1,0 +1,30 @@
+@import url("./constants.css");
+@import url("./colors.css");
+
+.mentionbar {
+  position: relative;
+  top: var(--height);
+  left: 0;
+  background: var(--logocolor);
+  width: 100%;
+  padding: 0 25px;
+  height: var(--height);
+  line-height: var(--height);
+  text-align: center;
+}
+
+.logo {
+  height: 60px;
+  width: 190px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  filter: brightness(0) invert(1);
+}
+
+.mentiontext {
+  color: white;
+  font-weight: bold;
+  line-height: 20px;
+}
