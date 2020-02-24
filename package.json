@@ -94,7 +94,7 @@
     "axios": "^0.13.1",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
-    "connect-pg-simple": "^3.1.0",
+    "connect-pg-simple": "^6.1.0",
     "cookie-parser": "^1.4.3",
     "crypto": "0.0.3",
     "dominos": "^2.0.1",
